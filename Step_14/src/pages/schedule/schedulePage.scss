@@ -1,0 +1,35 @@
+@import "../../style/variables.scss";
+
+.schedule {
+	display: grid;
+	grid-template-columns: 280px 500px;
+	column-gap: 120px;
+	padding-top: 50px;
+	&__controls {
+		display: grid;
+		grid-template-rows: 272px 370px;
+		row-gap: 50px;
+	}
+	&__list {
+		display: grid;
+		grid-auto-rows: 140px;
+		row-gap: 25px;
+	}
+	&__reload {
+		padding: 10px 20px;
+		width: 150px;
+		height: 40px;
+		margin: 30px auto 0 auto;
+		background: $inputs;
+		border: 1px solid rgba(0, 0, 0, 0.4);
+		border-radius: 24px;
+		font-weight: 600;
+		font-size: 15px;
+		line-height: 20px;
+		color: #000000;
+		cursor: pointer;
+		&:disabled {
+			background: $disabled;
+		}
+	}
+}

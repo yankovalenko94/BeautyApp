@@ -1,0 +1,60 @@
+{
+	"appointments": [
+		{
+			"id": 1,
+			"date": "2023-06-01T12:10",
+			"name": "Alex Smith",
+			"service": "Manicure",
+			"phone": "+1 948 945 344",
+			"canceled": false
+		},
+		{
+			"id": 2,
+			"date": "2023-05-01T15:15",
+			"name": "Sam Smith",
+			"service": "Pedicure",
+			"phone": "+1 746 235 890",
+			"canceled": false
+		},
+		{
+			"id": 3,
+			"date": "2023-05-02T09:00",
+			"name": "Alex Collson",
+			"service": "Manicure",
+			"phone": "+1 238 545 045",
+			"canceled": true
+		},
+		{
+			"id": 4,
+			"date": "2023-06-10T09:10",
+			"name": "Kim Paul",
+			"service": "Cleaning",
+			"phone": "+1 928 345 356",
+			"canceled": false
+		},
+		{
+			"id": 5,
+			"date": "2023-05-24T10:00",
+			"name": "Innes Olaf",
+			"service": "Haircut",
+			"phone": "+1 458 895 888",
+			"canceled": false
+		},
+		{
+			"id": 6,
+			"date": "2023-05-01T40:00",
+			"name": "Yan Somer",
+			"service": "Haircut",
+			"phone": "+1 678 995 484",
+			"canceled": true
+		},
+		{
+			"id": 7,
+			"date": "2023-05-27T13:00",
+			"name": "John Cena",
+			"service": "Beard",
+			"phone": "+1 333 835 438",
+			"canceled": false
+		}
+	]
+}
